@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 193px;
+    background-color: #248424;
+    display: flex;
+}
