@@ -1,5 +1,4 @@
 const express = require('express');
-const md5 = require('md5')
 const app = express();
 
 //const utilisateurs = require("./models/utilisateurs.js")
