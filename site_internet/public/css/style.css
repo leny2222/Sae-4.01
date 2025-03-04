@@ -1,9 +1,49 @@
 body{
     margin: 0;
+    font-family: "Inter", serif;
+
 }
 
 header{
     height: 193px;
     background-color: #248424;
     display: flex;
+    font-size: 22pt;
+    align-items: center;
+    
+}
+
+header>img{
+    width: 253px;
+    height: 113px;
+    margin: 35px;
+}
+
+header>nav>a{
+    text-decoration: none;
+    color: white;
+    margin: 40px;
+}
+
+.lien {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin: 45px;
+    padding-bottom: 5px; /* Espacement pour l'effet */
+}
+
+.lien::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; /* Épaisseur du soulignement */
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+.lien:hover::after {
+    width: 100%;
 }
