@@ -8,12 +8,12 @@ header{
     height: 193px;
     background-color: #248424;
     display: flex;
-    font-size: 22pt;
+    font-size: 18pt;
     align-items: center;
     
 }
 
-header>img{
+header>a>img{
     width: 253px;
     height: 113px;
     margin: 35px;
