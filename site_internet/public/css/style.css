@@ -48,6 +48,12 @@ header>nav>a{
     width: 100%;
 }
 
+.titre{
+    color: #248424;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
 /*Page Projet*/
 
 .project_container{
@@ -61,6 +67,15 @@ header>nav>a{
 
 .project_container > img{
     height: 670px;
+}
+
+/*Page Projet*/
+
+.prestations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1208px;
 }
 
 /*Footer*/
