@@ -76,6 +76,15 @@ footer{
     margin: 35px;
 }
 
+.rs_links > a > img{
+    height: 50px;
+}
+.rs_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .footer_liens > ul{
     list-style: none;
 }
