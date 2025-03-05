@@ -50,10 +50,22 @@ header>nav>a{
 
 /*Page Projet*/
 
+.project_container{
+    display: flex;
+    flex-direction: row;
+}
+
 .project_title{
     color: #248424;
 }
 
 .project_container > img{
     height: 670px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #248424;
+    color: white;
 }
