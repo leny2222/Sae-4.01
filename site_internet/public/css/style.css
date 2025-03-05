@@ -77,12 +77,15 @@ footer{
 }
 
 .rs_links > a > img{
-    height: 50px;
+    height: 40px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 .rs_links {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    width: 323px;
+    padding-left: 35px;
 }
 
 .footer_liens > ul{
