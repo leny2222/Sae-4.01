@@ -69,3 +69,18 @@ footer{
     background-color: #248424;
     color: white;
 }
+
+.logo_RS>a>img{
+    width: 253px;
+    height: 113px;
+    margin: 35px;
+}
+
+.footer_liens > ul{
+    list-style: none;
+}
+
+.footer_liens > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
