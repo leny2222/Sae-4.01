@@ -47,3 +47,13 @@ header>nav>a{
 .lien:hover::after {
     width: 100%;
 }
+
+/*Page Projet*/
+
+.project_title{
+    color: #248424;
+}
+
+.project_container > img{
+    height: 670px;
+}
