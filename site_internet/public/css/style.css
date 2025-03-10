@@ -48,6 +48,20 @@ header>nav>a{
     width: 100%;
 }
 
+.rdv{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 8px;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.rdv:hover{
+    background-color: #009951;
+    color :white;
+}
+
 .accueil{
     display: flex;
 }
