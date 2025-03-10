@@ -72,6 +72,19 @@ header>nav>a{
     margin-top: 60px;
 }
 
+.sous-titre{
+    font-size: 30pt;
+    color: #248424;
+}
+
+.section_prestations{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
 .conteneur_reservation{
     background-color: #248424;
     display: flex;
@@ -128,10 +141,6 @@ header>nav>a{
 .project_container{
     display: flex;
     flex-direction: row;
-}
-
-.project_title{
-    color: #248424;
 }
 
 .project_container > img{
