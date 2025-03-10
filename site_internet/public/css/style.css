@@ -169,6 +169,11 @@ header>nav>a{
     height: 670px;
 }
 
+.project_container > div > p{
+    font-size: large;
+}
+
+
 /*Page Prestations*/
 
 .prestations{
