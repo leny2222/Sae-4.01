@@ -47,3 +47,25 @@ header>nav>a{
 .lien:hover::after {
     width: 100%;
 }
+
+.accueil{
+    display: flex;
+}
+
+.contenu-gauche{
+    text-align: center;
+    padding: 40px;
+}
+.contenu-gauche>p{
+    text-align: left;
+}
+
+.img_ian{
+    margin: 20px 20px 0px 0px;
+    border-radius: 10px;
+}
+
+.titre{
+    font-size: 40pt;
+    color: #248424;
+}
