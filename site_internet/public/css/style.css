@@ -79,7 +79,7 @@ header>nav>a{
 
 .section_prestations{
     width: 100%;
-    margin: 5%;
+    margin: 2.5%;
 }
 
 .section_prestations > div{
@@ -137,6 +137,11 @@ header>nav>a{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.video_presentation{
+    width: 100%;
+    margin: 2.5%;
 }
 
 /*Page Projet*/
