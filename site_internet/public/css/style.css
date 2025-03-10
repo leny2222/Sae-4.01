@@ -68,4 +68,83 @@ header>nav>a{
 .titre{
     font-size: 40pt;
     color: #248424;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+/*Page Projet*/
+
+.project_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.project_title{
+    color: #248424;
+}
+
+.project_container > img{
+    height: 670px;
+}
+
+/*Page Projet*/
+
+.prestations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1208px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #248424;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.logo_RS>a>img{
+    width: 253px;
+    height: 113px;
+    margin: 35px;
+}
+
+.rs_links > a > img{
+    height: 40px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.rs_links{
+    display: flex;
+    flex-direction: row;
+    width: 323px;
+    padding-left: 35px;
+}
+
+.footer_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer_liens{
+    padding-top: 20px;
+}
+
+.footer_liens > ul{
+    list-style: none;
+}
+
+.footer_liens > ul > li{
+    padding-bottom: 30px;
+}
+
+.footer_liens > ul > li > a{
+    color: white;
+    text-decoration: none;
 }
