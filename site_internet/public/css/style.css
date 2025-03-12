@@ -183,6 +183,25 @@ header>nav>a{
     width: 1208px;
 }
 
+/*Page contact*/
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liens_RS{
+    width: 50%;
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+}
+
+.liens_RS > a > img{
+    height: 85px;
+}
+
 /*Footer*/
 
 footer{
