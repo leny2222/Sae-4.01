@@ -51,6 +51,7 @@ header>nav>a{
 .rdv{
     background-color: white;
     border-radius: 5px;
+    text-decoration: none;
     color: black;
     padding: 8px;
     transition: ease-in-out;
@@ -62,29 +63,71 @@ header>nav>a{
     color :white;
 }
 
-.accueil{
+
+
+.accueil {
     display: flex;
 }
 
-.contenu-gauche{
+.contenu-gauche {
     text-align: center;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre le contenu horizontalement */
 }
-.contenu-gauche>p{
+
+.contenu-gauche > p {
     text-align: left;
 }
 
-.img_ian{
+.bouton {
+    display: flex;
+    justify-content: center; /* Centre les boutons horizontalement */
+    gap: 10px; /* Espacement entre les boutons */
+    width: 100%; /* Assure que le conteneur prend toute la largeur */
+    margin-top: 20px; /* Ajoute un peu d'espace au-dessus des boutons */
+    font-size: 30px;
+}
+
+.bouton a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid green;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.bouton a:first-child {
+    background-color: green;
+    color: white;
+}
+
+
+.bouton a:hover {
+    background-color: green;
+    color: white;
+}
+
+.bouton a:first-child:hover {
+    background-color: white;
+    color: black;
+}
+
+.img_ian {
     margin: 20px 20px 0px 0px;
     border-radius: 10px;
 }
 
-.titre{
+.titre {
     font-size: 40pt;
     color: #248424;
     margin-left: 60px;
     margin-top: 60px;
 }
+
 
 .sous-titre{
     font-size: 30pt;
@@ -102,7 +145,7 @@ header>nav>a{
     align-items: center;
 }
 
-.conteneur_reservation{
+.conteneur_reservation {
     background-color: #248424;
     display: flex;
     flex-direction: row;
@@ -113,17 +156,19 @@ header>nav>a{
     margin: 50px;
 }
 
-.conteneur1{
+.conteneur1 {
     color: white;
     text-align: end;
     width: 400px;
+    padding-right: 20px;
+    border-right: 3px solid white; /* Ajout de la barre verticale */
 }
 
-.conteneur1 > h1{
+.conteneur1 > h1 {
     font-size: xx-large;
 }
 
-.conteneur2{
+.conteneur2 {
     color: white;
     display: flex;
     flex-direction: column;
@@ -131,20 +176,23 @@ header>nav>a{
     align-items: center;
     width: 400px;
     height: 70%;
+    padding-left: 20px; /* Espace pour éviter que le texte soit collé à la barre */
 }
 
-.conteneur2 > p{
+.conteneur2 > p {
     font-size: large;
 }
 
-.conteneur2 > button{
+.conteneur2 > .rdv {
     background-color: white;
-}
-
-.conteneur2 > button > a{
+    color: #248424;
+    padding: 10px 20px;
     text-decoration: none;
     font-size: large;
+    border-radius: 5px;
+    font-weight: bold;
 }
+
 
 .reservation {
     width: 100%;
@@ -167,6 +215,7 @@ header>nav>a{
 
 .project_container > img{
     height: 670px;
+    width: 50%;
 }
 
 .project_container > div > p{
